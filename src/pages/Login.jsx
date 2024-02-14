@@ -1,4 +1,4 @@
-
+import Forgot from "./Forgot-page"
 
 const Login = () => {
     return (
@@ -10,7 +10,7 @@ const Login = () => {
                 <input type="text" placeholder="Enter your UserID" />
                 <input type="text" placeholder="Enter your Password" />
                 <button>Submit</button>
-                <a href="#">forgot password</a>
+                <a href="#forgot">forgot password</a>
             </form>
         </div>
     )

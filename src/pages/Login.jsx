@@ -1,4 +1,5 @@
-import Forgot from "./Forgot-page"
+import React from "react"
+import { Link } from "react-router-dom"
 
 const Login = () => {
     return (
@@ -10,7 +11,7 @@ const Login = () => {
                 <input type="text" placeholder="Enter your UserID" />
                 <input type="text" placeholder="Enter your Password" />
                 <button>Submit</button>
-                <a href="#forgot">forgot password</a>
+                <Link to="/register">Sign Up</Link>
             </form>
         </div>
     )
